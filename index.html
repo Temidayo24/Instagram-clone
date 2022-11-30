@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="instagram.css" />
+    <title>Temi-Instagram-clone</title>
+  </head>
+  <body>
+    <header class="first-layout">
+      <nav>
+        <div class="insta-logo">
+          <a href=""><img src="images/Instagram_logo.svg.png" alt="" /></a>
+        </div>
+        <div class="nav-links">
+          <button><a href=""
+            ><img src="images/homepage.png" alt="" /><span>Home</span></a
+          ></button>
+        </div>
+        <div class="nav-links">
+          <button><a href=""
+            ><img src="images/search-interface-symbol.png" alt="" /><span
+              >Search</span
+            ></a
+          ></button>
+        </div>
+        <div class="nav-links">
+          <button><a href=""
+            ><img src="images/compass.png" alt="" /><span>Explore</span></a
+          ></button>
+        </div>
+        <div class="nav-links">
+          <button><a href=""
+            ><img src="images/messenger.png" alt="" /><span>Messages</span></a
+          ></button>
+        </div>
+        <div class="nav-links">
+          <button><a href=""
+            ><img src="images/heart.png" alt="" /><span>Notifications</span></a
+          ></button>
+        </div>
+        <div class="nav-links">
+          <button><a href=""><img src="images/tab.png" alt="" /><span>Create</span></a>
+        </div></button>
+        <div class="nav-links">
+          <button><a href=""
+            ><img src="images/temi.jpg" alt="" class="temi-img"/><span>Profile</span></a
+          ></button>
+        </div>
+        <div class="nav-links">
+          <button><a href=""><img src="images/menu.png" alt="" /><span>More</span></a></button>
+        </div>
+      </nav>
+    </header>
+    <main class="middle-layout">
+      <section class="middle-layout-container">
+        <section class="insta-stories-container">
+            <div class="insta-stories">
+          <div class="insta-story">
+            <img src="images/avatar1.jpeg" alt="" /><span>atinuke</span>
+          </div>
+          <div class="insta-story">
+            <img src="images/avatar2.jpeg" alt="" /><span>foodies</span>
+        </div>
+          <div class="insta-story">
+            <img src="images/avatar3.jpeg" alt="" /><span>josh</span>
+        </div>
+          <div class="insta-story">
+            <img src="images/avatar4.png" alt="" /><span>rukayat</span>
+        </div>
+          <div class="insta-story">
+            <img src="images/avatar5.jpg" alt="" /><span>kraksTV</span>
+          </div>
+          <div class="insta-story">
+            <img src="images/avatar6.jpg" alt="" /><span>tweetsavages</span>
+          </div>
+        </div>
+          <div class="carousel-actions">
+            <button id="previous-button" onclick="moveLeft()">
+              <img src="images/left-chevron.png" alt="" />
+            </button>
+            <button id="next-button" onclick="moveRight()">
+              <img src="images/chevron.png" alt="" />
+            </button>
+          </div>
+        </section>
+        <section class="status-update">
+          <div class="block1">
+            <div class="partA">
+              <img src="images/cavemen.jpg" alt="" />
+              <a href=""><span>the.cavemen</span></a>
+            </div>
+            <div class="partB">
+            <img src="images/more.png" alt="" />
+            </div>
+          </div>
+          <div class="block2">
+            <img src="images/screenshot1.png" alt="" />
+          </div>
+          <div class="block3">
+            <div class="partA">
+              <div class="heart-speech-send">
+                <img src="images/heart.png" alt="" />
+                <img
+                  src="images/speech-bubble.png"
+                  alt=""/>
+                <img src="images/send.png" alt="" class="send" />
+              </div>
+              <div class="bookmark">
+                <img src="images/bookmark.png" alt="" />
+              </div>
+            </div>
+            <div class="partB">
+              <span>23,081 likes</span>
+            </div>
+            <div class="partC">
+              <span>the.cavemen</span>
+              <span>The Cavemen. Live in Lagos! Landmark Beach, December 23 🌴</span>
+              <p>...more</p>
+            </div>
+            <div class="partD">View all 400 comments</div>
+            <div class="partE">20 HOURS AGO</div>
+          <div class="partF">
+              <form action="">
+                <img src="images/happy.png" alt="" />
+                <textarea name="" id="" cols="30" rows="10" placeholder="Add a comment..."></textarea>
+                <span>Post</span>
+              </form>
+          </div>
+          </div>
+        </section>
+        <section class="status-update">
+          <div class="block1">
+            <div class="partA">
+              <img src="images/maureen.jpg" alt="" />
+              <a href=""><span>maureenacccessories</span></a>
+            </div>
+            <div class="partB">
+            <img src="images/more.png" alt="" />
+            </div>
+          </div>
+          <div class="block2">
+            <img src="images/screenshot2.jpg" alt="" />
+          </div>
+          <div class="block3">
+            <div class="partA">
+              <div class="heart-speech-send">
+                <img src="images/heart.png" alt="" />
+                <img
+                  src="images/speech-bubble.png"
+                  alt=""/>
+                <img src="images/send.png" alt="" />
+              </div>
+              <div class="bookmark">
+                <img src="images/bookmark.png" alt="" />
+              </div>
+            </div>
+            <div class="partB">
+              <span>212 likes</span>
+            </div>
+            <div class="partC">
+              <span>maureenacccessories</span>
+              <span>Normal price: 4,500 naira ❌ </span>
+              <p>...more</p>
+            </div>
+            <div class="partD">View all 10 comments</div>
+            <div class="partE">1 HOURS AGO</div>
+          <div class="partF">
+              <form action="">
+                <img src="images/happy.png" alt="" />
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <span>Post</span>
+              </form>
+          </div>
+          </div>
+        </section>
+        <section class="status-update">
+          <div class="block1">
+            <div class="partA">
+              <img src="images/bobby.jpeg" alt="" />
+              <a href=""><span>bobby_232</span></a>
+            </div>
+            <div class="partB">
+            <img src="images/more.png" alt="" />
+            </div>
+          </div>
+          <div class="block2">
+            <img src="images/screenshot3.png" alt="" />
+          </div>
+          <div class="block3">
+            <div class="partA">
+              <div class="heart-speech-send">
+                <img src="images/heart.png" alt="" />
+                <img
+                  src="images/speech-bubble.png"
+                  alt=""/>
+                <img src="images/send.png" alt="" />
+              </div>
+              <div class="bookmark">
+                <img src="images/bookmark.png" alt="" />
+              </div>
+            </div>
+            <div class="partB">
+              <span>87 likes</span>
+            </div>
+            <div class="partC">
+              <span>bobby_232</span>
+              <span>Happy birthday, my baby 😘😘😘</span>
+            </div>
+            <div class="partD">View 20 comments</div>
+            <div class="partE">50 MINUTE AGO</div>
+          <div class="partF">
+              <form action="">
+                <img src="images/happy.png" alt="" />
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <span>Post</span>
+              </form>
+          </div>
+          </div>
+        </section>
+        <section class="status-update">
+          <div class="block1">
+            <div class="partA">
+              <img src="images/mayor.jpg" alt="" />
+              <a href=""><span>mayorladbeautyworld</span></a>
+            </div>
+            <div class="partB">
+            <img src="images/more.png" alt="" />
+            </div>
+          </div>
+          <div class="block2">
+            <img src="images/screenshot4.png" alt="" />
+          </div>
+          <div class="block3">
+            <div class="partA">
+              <div class="heart-speech-send">
+                <img src="images/heart.png" alt="" />
+                <img
+                  src="images/speech-bubble.png"
+                  alt=""/>
+                <img src="images/send.png" alt="" />
+              </div>
+              <div class="bookmark">
+                <img src="images/bookmark.png" alt="" />
+              </div>
+            </div>
+            <div class="partB">
+              <span>51 likes</span>
+            </div>
+            <div class="partC">
+              <span>mayorladbeautyworld</span>
+              <span>😍😍😍😍😍😍</span>
+              <p>...more</p>
+            </div>
+            <div class="partD">View all 15 comments</div>
+            <div class="partE">20 HOURS AGO</div>
+          <div class="partF">
+              <form action="">
+                <img src="images/happy.png" alt="" />
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <span>Post</span>
+              </form>
+          </div>
+          </div>
+        </section>
+      </section>
+      <section class="last-layout">
+        <div class="profile-followers">
+          <div class="my-profile">
+            <img src="images/temi.jpg" alt="" />
+            <div class="my-username">
+              <a href=""><span>ade_bi_ke</span></a>
+              <span>Temidayo Kehinde</span>
+            </div>
+          </div>
+          <span class="switch">Switch</span>
+        </div>
+        <div class="followers-container">
+          <div class="suggestion">
+            <span class="sugg_for_u">Suggestions For You</span>
+            <span class="see-all">See All</span>
+          </div>
+          <div class="followers">
+            <div class="follower">
+              <img src="images/follow1.jpeg" alt="" />
+              <div class="username">
+                <a href=""><span>love_quotes</span></a>
+                <span class="followed">Followed by _munirat</span>
+              </div>
+            </div>
+            <span class="follow">Follow</span>
+          </div>
+          <div class="followers">
+            <div class="follower">
+              <img src="images/follow2.jpeg" alt="" />
+              <div class="username">
+                <a href=""><span>stanley_photographer</span></a>
+                <span class="followed">Followed by josh</span>
+              </div>
+            </div>
+            <span class="follow">Follow</span>
+          </div>
+          <div class="followers">
+            <div class="follower">
+              <img src="images/follow3.jpeg" alt="" />
+              <div class="username">
+                <a href=""><span>human.are.apes</span></a>
+                <span class="followed">Followed by KraksTV</span>
+              </div>
+            </div>
+            <span class="follow">Follow</span>
+          </div>
+          <div class="followers">
+            <div class="follower">
+              <img src="images/follow4.jpeg" alt="" />
+              <div class="username">
+                <a href=""><span>_theBookClub.ng</span></a>
+                <span class="followed">Followed by shadostouch</span>
+              </div>
+            </div>
+            <span class="follow">Follow</span>
+          </div>
+          <div class="followers">
+            <div class="follower">
+              <img src="images/follow5.jpeg" alt="" />
+              <div class="username">
+                <a href=""><span>deji_dev</span></a>
+                <span class="followed">Follows you</span>
+              </div>
+            </div>
+            <span class="follow">Follow</span>
+          </div>
+        </div>
+            <footer>
+                <ul>
+                    <a href="">
+                        <li>About</li>
+                    </a>
+                    <a href="">
+                        <li>Help</li>
+                    </a>
+                    <a href="">
+                        <li>Press</li>
+                    </a>
+                    <a href="">
+                        <li>API</li>
+                    </a>
+                    <a href="">
+                        <li>Jobs</li>
+                    </a>
+                    <a href="">
+                        <li>Privacy</li>
+                    </a>
+                    <a href="">
+                        <li>Terms</li>
+                    </a>
+                    <a href="">
+                        <li>Locations</li>
+                    </a>
+                    <a href="">
+                        <li>Language</li>
+                    </a>
+                </ul>
+            <span>
+                © 2022 INSTAGRAM FROM META
+            </span>
+        </footer>
+      </section>
+    </main>
+
+    <script>
+      
+    </script>
+  </body>
+</html>
