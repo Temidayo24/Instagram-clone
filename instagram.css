@@ -152,6 +152,10 @@ body {
   opacity: 0.6;
 }
 
+#previous-button {
+  display: none;
+}
+
 .status-update {
   border: 1px solid #dbdbdb;
   border-radius: 10px;
